@@ -32,23 +32,6 @@ For the full list of available commands, please enter the following:
 zilminer --help
 ```
 
-## Settings on Zilliqa Node
-1. Setup Zilliqa Node by following the [Zilliqa Mining Guide](https://github.com/Zilliqa/Zilliqa/wiki/Mining)
-2. Change the `constants.xml` for the following parameter:
-    * Set `GETWORK_SERVER_MINE` to `true`.
-    * Set `GETWORK_SERVER_PORT` to the port you will be using to GetWork. (default is `4202`)
-    * Set the other mining parameters to `false`:
-       ```
-       <CUDA_GPU_MINE>false</CUDA_GPU_MINE>
-       <FULL_DATASET_MINE>false</FULL_DATASET_MINE>
-       <OPENCL_GPU_MINE>false</OPENCL_GPU_MINE>
-       <REMOTE_MINE>false</REMOTE_MINE>
-       ```
-3. Launch your node and find out your IP address with the following command:
-    ```
-    curl https://ipinfo.io/ip
-    ```
-
 ## Settings on zilminer client
 
 Key in the following command in your command prompt:
