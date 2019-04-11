@@ -79,10 +79,4 @@ Zilminer:
 zilminer.exe --pow-start stop_beam.bat --pow-end start_beam.bat --pow-end-at-startup -P zil://wallet_address.worker_name@proxy.getzil.com:5000/api
 ```
 
-If your GPU memory is not enghou for 2 miners, add zilminer arg `--clear-dag`
-
-## Build
-
-### Building from source
-
-See [docs/BUILD.md](docs/BUILD.md) for build/compilation details.
+If your GPU memory is not enough for 2 miners, add zilminer arg `--clear-dag`
