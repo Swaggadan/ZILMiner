@@ -80,3 +80,7 @@ zilminer.exe --pow-start stop_beam.bat --pow-end start_beam.bat --pow-end-at-sta
 ```
 
 If your GPU memory is not enough for 2 miners, add zilminer arg `--clear-dag`
+
+## Hive Dual Mining
+
+Contact @kidkid1 on telegram
